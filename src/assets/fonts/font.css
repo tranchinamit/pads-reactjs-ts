@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-Regular.eot');
+  src: url('Montserrat-Regular.woff2') format('woff2'),
+       url('Montserrat-Regular.woff') format('woff'),
+       url('Montserrat-Regular.ttf') format('truetype'),
+       url('Montserrat-Regular.svg#Montserrat-Regular') format('svg'),
+       url('Montserrat-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'K2D';
+  src: url('K2D-Regular.eot');
+  src: url('K2D-Regular.woff2') format('woff2'),
+       url('K2D-Regular.woff') format('woff'),
+       url('K2D-Regular.ttf') format('truetype'),
+       url('K2D-Regular.svg#K2D-Regular') format('svg'),
+       url('K2D-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

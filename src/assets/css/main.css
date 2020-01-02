@@ -1,0 +1,12 @@
+@import "../bootstrap/css/bootstrap.css";
+/* Style */
+@import "index.css";
+@import "ads-details.css";
+@import "list-ads.css";
+@import "profile.css";
+
+/* font */
+@import "../fonts/font.css";
+
+/* icon */
+@import "../icons/style.css";

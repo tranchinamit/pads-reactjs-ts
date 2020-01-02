@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?1emc2b');
+  src:  url('fonts/icomoon.eot?1emc2b#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1emc2b') format('truetype'),
+    url('fonts/icomoon.woff?1emc2b') format('woff'),
+    url('fonts/icomoon.svg?1emc2b#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-caret-right:before {
+  content: "\e907";
+}
+.icon-caret-left:before {
+  content: "\e908";
+}
+.icon-grid:before {
+  content: "\e905";
+}
+.icon-chevron-thin-up:before {
+  content: "\e901";
+}
+.icon-chevron-thin-down:before {
+  content: "\e904";
+}
+.icon-caret-down:before {
+  content: "\e900";
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-star:before {
+  content: "\e9d9";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-chevron-right:before {
+  content: "\e902";
+}
+.icon-chevron-left:before {
+  content: "\e903";
+}
+.icon-list:before {
+  content: "\e9ba";
+}

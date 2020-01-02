@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "build/dist",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts"
+    // "src/assets/js",
+    // "src/assets/js/jquery-3.3.1.js",
+    // "src/assets/js/popper.js",
+    // "src/assets/bootstrap/js/bootstrap.js",
+  ]
+  // "files": [
+  //   "node_modules/@types/bootstrap-select/index.d.ts",
+  //   "src/assets/js/popper.js",
+  //   "src/assets/bootstrap/js/bootstrap.js",
+  // ]
+}

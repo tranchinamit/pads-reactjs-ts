@@ -1,0 +1,121 @@
+.content .img-background {
+  height: 250px;
+  background-image: url("../images/background.jpg");
+  position: relative;
+  border-radius: 4px;
+}
+.content .img-background .info-user {
+  height: 160px;
+  width: 90%;
+  background-color: #eee;
+  margin: auto;
+  position: absolute;
+  top: 230px;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  border: solid 1px black;
+  border-radius: 4px;
+}
+.content .img-background .info-user .left .wrapper-avatar {
+  position: relative;
+}
+.content .img-background .info-user .left .wrapper-avatar img.avatar {
+  width: 140px;
+  height: 140px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  /* margin-left: 4px; */
+  border-radius: 4px;
+}
+.content .img-background .info-user .left .wrapper-info {
+  position: relative;
+  padding-left: 0px;
+}
+.content .img-background .info-user .left .wrapper-info .info {
+  width: 100%;
+  height: 130px;
+  margin-top: 10px;
+}
+.content .img-background .info-user .left .wrapper-info .info .info-row {
+  margin-top: 5px;
+}
+.content .img-background .info-user .left .wrapper-info .info .info-text {
+  font-weight: bold;
+}
+.content .img-background .info-user .right p {
+  padding-top: 15px;
+}
+.content .img-background .info-user .right hr {
+  margin: 12px 30%;
+  background-color: black;
+}
+
+.content .sold-items {
+  padding-top: 75px;
+  /* height: 500px; */
+  width: 100%;
+}
+.content .sold-items .article-items {
+  position: relative;
+}
+.content .sold-items .article-items .icon-chevron-left,
+.content .sold-items .article-items .icon-chevron-right {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+.content .sold-items .article-items .icon-chevron-left {
+  left: 0;
+}
+.content .sold-items .article-items .icon-chevron-right {
+  right: 0;
+}
+.content .sold-items .article-items .icon-chevron-left:hover,
+.content .sold-items .article-items .icon-chevron-right:hover {
+  cursor: pointer;
+}
+.content .sold-items .article-items .list-article {
+  height: 400px;
+  width: 250px;
+  /* border: solid 1px black; */
+  position: relative;
+  margin: 20px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 4px;
+}
+.content .sold-items .article-items .list-article img {
+  height: 250px;
+  width: 250px;
+  border-radius: 4px 4px 0 0;
+}
+.content .sold-items .article-items .list-article .ads-description .title {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.content .sold-items .article-items .list-article .ads-description .title a {
+  font-size: 16px;
+  margin-bottom: 4px;
+  color: #3997ba;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: K2D;
+  text-decoration: none;
+}
+.content .sold-items .article-items .list-article .ads-description .createdAt {
+  padding-left: 10px;
+  font-size: 14px;
+}
+.content .sold-items .article-items .list-article .ads-description .sub-type {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.content .sold-items .article-items .list-article .ads-description .money {
+  padding-left: 10px;
+  font-size: 18px;
+  color: #635b67;
+  font-weight: bold;
+}
